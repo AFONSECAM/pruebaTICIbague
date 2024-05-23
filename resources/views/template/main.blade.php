@@ -130,7 +130,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('/register') }}" class="nav-link {{ (Request::routeIs('/register')) ? 'active' : '' }}">
+                            <a href="/register" class="nav-link">
                                 <i class="nav-icon fa-solid fa-city"></i>
                                 <p>Crear usuario</p>
                             </a>
