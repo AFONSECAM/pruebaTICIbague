@@ -130,6 +130,12 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a href="{{ route('/register') }}" class="nav-link {{ (Request::routeIs('/register')) ? 'active' : '' }}">
+                                <i class="nav-icon fa-solid fa-city"></i>
+                                <p>Crear usuario</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="log-out ml-3" href="#" class="nav-link">
                                 <i class="nav-icon fa-solid fa-power-off" style="color: red;"></i>
                                 Logout
@@ -168,7 +174,7 @@
 
             </div>
             <!-- Default to the left -->
-            <strong>Copyright &copy; 2024 <a href="https://github.com/AFONSECAM">Andres Fonseca</a>.</strong> Todos los derechos reservados            
+            <strong>Copyright &copy; 2024 <a href="https://github.com/AFONSECAM">Andres Fonseca</a>.</strong> Todos los derechos reservados
         </footer>
     </div>
     <!-- ./wrapper -->
